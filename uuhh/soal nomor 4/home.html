@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <title>Soal Nomor 4</title>
+</head>
+<body>
+    <script>
+        var nilai = prompt("Masukkan Nilai Kamu:");
+        var grade = "";
+
+        if(nilai >= 101) nilai = "Nilai yang kamu masukkan tidak valid"
+        else if(nilai >= 90) grade = "A"
+        else if(nilai >= 80) grade = "B"
+        else if(nilai >= 69) grade = "C"
+        else if(nilai >= 60) grade = "D"
+        else if(nilai >= 59) grade = "E"
+        else grade = "E";
+        document.write(`<p>Nilai Kamu =  ${nilai}</p>`);
+        document.write(`<p>Selamat kamu mendapatkan peringkat: ${grade}</p>`);
+    </script>
+</body>
+</html>
